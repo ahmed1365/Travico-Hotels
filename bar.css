@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sacramento&display=swap');
+
+$cursive: 'Great Vibes', cursive;
+$handwriting: 'Sacramento', cursive;
+
+$white: #fff;
+$black: #000;
+
+@mixin hc(){
+  left: 50%;
+  transform: translatex(-50%);
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+.wrapHead{
+  width: 95%;
+  margin: 0 auto;
+  transition: all ease-in-out 0.5s;
+}
+.wrapHead.fixed-to-top{
+  width: 100%;
+}
+header{
+  position: fixed;
+  width: 100%;
+  background: rgba(38, 50, 56, 0.5);
+  padding: 10px 0;
+  z-index: 1;
+  transition: all ease-in-out 0.5s;
+}
+header:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+header.fixed-to-top{
+  background: rgba(38, 50, 56, 1);
+}
+#brand{
+  float: left;
+}
+#brand h1{
+  letter-spacing: 10px;
+  text-shadow: 2px 2px 5px #111;
+    font-family: 'Comic Sans MS', cursive;
+  color:white;
+
+}
+nav{
+  float: right;
+  margin-top: 10px;
+}
+nav li{
+  display: inline-block;
+  margin: 0 4px;
+}
+nav li a{
+  padding: 10px 0;
+  text-decoration: none;
+  color: #e1e1e1;
+  transition: all ease-in-out 0.5s;
+}
+nav li a:hover{
+  color: #bbb;
+}
+section{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+}
+section h2{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  text-transform: capitalize;
+  text-shadow: 10px 10px 3px rgba(0,0,0, 0.2);
+}
+

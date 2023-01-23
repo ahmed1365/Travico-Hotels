@@ -1,0 +1,91 @@
+
+#img2{
+  position:absolute;
+  left:17px;
+  top:3px;
+  width:40;
+}
+
+#divaa1{
+  position:absolute;
+  left:90%;
+  top :5%;
+  width:85px;
+  height:40px;
+  border:5px solid gray;
+  border-radius:90px;
+  background:rgba(38, 50, 56, 0.5);
+  transition:.5s;
+}
+#divaa1:hover{
+  height:260px;
+  margin:4px;
+  padding:5px;
+}
+
+#btna1{
+  position:absolute;
+  top:0px;
+  background:transparent;
+  width:75px;
+  color:transparent;
+  padding-top:5px;
+  padding-bottom:10px;
+  letter-spacing: 4px;
+  text-shadow: 3px 3px 3px #111;
+  border:2.5px solid transparent;
+  border-radius:100px;
+  cursor:pointer;
+  transition:.6s;
+}
+#divaa1:hover > #btna1{
+  top:70px;
+  color:#e1e1e1;
+  background:rgba(38, 50, 56, 0.5);
+  padding-bottom:5px;
+}
+
+#btna2{
+ position:absolute;
+  top:0px;
+  background:transparent;
+  width:75px;
+  color:transparent;
+  padding-top:5px;
+  padding-bottom:10px;
+  letter-spacing: 4px;
+  text-shadow: 3px 3px 3px #111;
+  border:2.5px solid transparent;
+  border-radius:100px;
+  cursor:pointer;
+  transition:.6s;
+}
+#divaa1:hover > #btna2{
+  top:130px;
+  color:#e1e1e1;
+  background:rgba(38, 50, 56, 0.5);
+  padding-bottom:5px;
+}
+#btna3{
+ position:absolute;
+  top:0px;
+  background:transparent;
+  width:75px;
+  color:transparent;
+  padding-top:5px;
+  padding-bottom:10px;
+  letter-spacing: 4px;
+  text-shadow: 3px 3px 3px #111;
+  border:2.5px solid transparent;
+  border-radius:100px;
+  cursor:pointer;
+  transition:.6s;
+}
+#divaa1:hover > #btna3{
+  top:190px;
+  color:#e1e1e1;
+  background:rgba(38, 50, 56, 0.5);
+  padding-bottom:5px;
+}
+
+

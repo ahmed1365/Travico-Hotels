@@ -880,7 +880,7 @@ h3 {
   
 }
 .title{
-	padding:30px;
+	padding-top:90px;
 position:relative;
 	height:80%;
   width=100%;
@@ -1006,3 +1006,5 @@ p{
   font-family: 'Exo', sans-serif;
   
 }
+
+
